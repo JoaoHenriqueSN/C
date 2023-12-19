@@ -1,0 +1,3 @@
+﻿  PassandoArraysParaFunções.cpp
+C:\Users\Lawli\source\repos\PassandoArraysParaFunções\PassandoArraysParaFunções\PassandoArraysParaFunções.cpp(12,19): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  PassandoArraysParaFunções.vcxproj -> C:\Users\Lawli\source\repos\PassandoArraysParaFunções\x64\Debug\PassandoArraysParaFunções.exe

@@ -1,0 +1,7 @@
+﻿  ForEachLoop.cpp
+C:\Users\Lawli\source\repos\ForEachLoop\ForEachLoop\ForEachLoop.cpp(6,23): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\ForEachLoop\ForEachLoop\ForEachLoop.cpp(6,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\ForEachLoop\ForEachLoop\ForEachLoop.cpp(6,48): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\ForEachLoop\ForEachLoop\ForEachLoop.cpp(6,55): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\ForEachLoop\ForEachLoop\ForEachLoop.cpp(6,71): warning C4305: 'initializing': truncation from 'double' to 'float'
+  ForEachLoop.vcxproj -> C:\Users\Lawli\source\repos\ForEachLoop\x64\Debug\ForEachLoop.exe

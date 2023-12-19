@@ -1,0 +1,7 @@
+﻿  For Each Loop - Exercicio Proposto.cpp
+C:\Users\Lawli\source\repos\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto.cpp(6,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto.cpp(6,31): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto.cpp(6,42): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto.cpp(6,48): warning C4305: 'initializing': truncation from 'double' to 'float'
+C:\Users\Lawli\source\repos\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto\For Each Loop - Exercicio Proposto.cpp(6,63): warning C4305: 'initializing': truncation from 'double' to 'float'
+  For Each Loop - Exercicio Proposto.vcxproj -> C:\Users\Lawli\source\repos\For Each Loop - Exercicio Proposto\x64\Debug\For Each Loop - Exercicio Proposto.exe

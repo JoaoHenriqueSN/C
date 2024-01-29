@@ -1,6 +1,6 @@
 //prcisamos incluir o arquivo .h relativo a classe Conta
 //para que este arquivo Conta.cpp possa "enxergar" as declarações da classe conta;
-#include "Conta.h"
+#include "conta.h"
 #include <iostream>
 #include <string>
 
@@ -35,7 +35,9 @@ void Conta::Depositar(double Valor)
 
 
 //A função recebe como argumentos para seus parâmetros um Objeto do tipo Conta e um Valor double
-void Conta::Transferir(Conta Destino, double Valor)
+
+//Aqui o parâmetro Destino irá receber este objeto
+void Conta::Transferir(Conta &Destino, double Valor)
 {
 	if (Saldo < Valor) 
 	{
@@ -73,11 +75,43 @@ int Conta::GetAgencia()
 {
 	return Agencia;
 }
+int Conta::GetNumConta()
+{
+	return NumConta;
+}
 std::string Conta::GetTitular()
 {
 	return Titular;
 }
+void Conta::GetEnderecoThis()
+{
+	std::cout << "this contem dentro do endereco " << this << "\n";
+}
 void Conta::SetBanco(std::string Banco)
 {
-	Banco = Banco;
+	//This é um ponteiro para chegar no apontado pelo ponteiro 
+	//Temos *this, ,mas como this é um ponteiro para um objeto 
+	// ele precisa usar a notação ponto. para cessar atributos 
+	//e executar função do objeto
+
+	//agora o compilador sabe que Banco é a variável local que recebeu
+	//o argumento string e que deve ser colocada no atributo Banco do
+	//objeto apontado por this
+	//(*this).Banco
+	this->Banco = Banco;
+}
+
+void Conta::SetAgencia(int Agencia)
+{
+	this->Agencia = Agencia;
+}
+
+void Conta::SetNumConta(int NumConta)
+{
+	this->NumConta = NumConta;
+}
+
+void Conta::SetTitular(std::string Titular)
+{
+	this->Titular = Titular;
 }
